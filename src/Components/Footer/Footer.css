@@ -1,0 +1,96 @@
+.footer {
+    padding: 60px 40px 20px 40px;
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 30px;
+  }
+  
+  .footer-logo img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .footer-logo p {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  
+  .footer-links li {
+    font-size: 16px;
+    color: #ddd;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links li:hover {
+    color: #ff4141;
+  }
+  
+  .footer-social-icon {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .footer-icons-container {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  .footer-icons-container img {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) saturate(100%) invert(22%) sepia(90%) saturate(750%) hue-rotate(340deg) brightness(110%) contrast(95%);
+    /* Optional: tweak above for different icon styles */
+  }
+  
+  .footer-icons-container:hover {
+    transform: translateY(-4px);
+    background-color: #ff4141;
+  }
+  
+  .footer-icons-container:hover img {
+    filter: brightness(0) invert(1); /* Turns icons white on hover */
+  }
+  
+  .footer hr {
+    border: none;
+    height: 1px;
+    background-color: #444;
+    margin: 0 auto 20px;
+    width: 80%;
+  }
+  
+  .footer p {
+    font-size: 14px;
+    color: #aaa;
+  }
+  
